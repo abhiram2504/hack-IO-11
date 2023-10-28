@@ -1,45 +1,63 @@
+/* Container styling */
 .complaints-container {
-  position: absolute;
-  left: 350px;
-  top: 0;
-  height: 900px;
-  width: 71%;
-  margin-top: 70px;
+  position: relative;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  height: 100vh; /* Set the height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
+/* Heading styling */
 .complaints-heading {
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
+/* Text styling */
 .complaints-text {
   font-size: 16px;
   line-height: 1.5;
   margin-bottom: 20px;
+  color: #555;
 }
 
+/* Form styling */
 .complaints-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
+/* Label styling */
 .complaint-label {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  color: #333;
 }
 
+/* Textarea styling */
 .complaint-textarea {
   width: 100%;
-  height: 100px;
+  height: 150px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
   resize: none;
   margin-bottom: 15px;
+  color: #333;
 }
 
+/* Submit button styling */
 .complaint-submit {
   background-color: #007bff;
   color: #fff;
@@ -52,4 +70,13 @@
 
 .complaint-submit:hover {
   background-color: #0056b3;
+  color: #fff;
+}
+
+/* Thank you message styling */
+.thank-you-message {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 20px;
+  color: #007bff;
 }
