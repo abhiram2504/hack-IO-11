@@ -1,5 +1,7 @@
 import React from "react";
 import { useState } from "react";
+import './Carbon.css';
+
 function CarbonCalculator() {
   const [value1, setValue1] = useState(0);
   const [value2, setValue2] = useState(0);
