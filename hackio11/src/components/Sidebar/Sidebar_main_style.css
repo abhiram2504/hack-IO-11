@@ -36,7 +36,7 @@
     color: #000; /* Active button text color */
     font-weight: bold; /* Normal font weight for active tab */
     letter-spacing: 0; /* No letter spacing for active tab */
-    padding: 10px 3d0px; /* Adjust padding as needed */
+    padding: 10px 30px; /* Adjust padding as needed */
     margin-bottom: 5; /* No margin between active and inactive tabs */
   }
 
