@@ -37,8 +37,9 @@ mse = mean_squared_error(y_test, y_pred)
 r2 = r2_score(y_test, y_pred)
 
 # Example user input
-kWh = input("")
-user_input = np.array([250, 100]).reshape(1, -1)  # Replace with the user's input
+kWh = float(input("Enter the Kwh: "))
+waste = float(input("Enter the waste: "))
+user_input = np.array([kWh, waste]).reshape(1, -1)  # Replace with the user's input
 
 # Predict carbon emissions
 predicted_emissions = model.predict(user_input)
