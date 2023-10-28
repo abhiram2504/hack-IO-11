@@ -1,6 +1,6 @@
 .sidebar {
     width: 276px;
-    height: 900px; /* Make the sidebar take the full height of its container */
+    height: 695px; /* Make the sidebar take the full height of its container */
     background-color: #f6f6fa;
     padding: 20px;
     text-align: center;
@@ -38,6 +38,7 @@
     letter-spacing: 0; /* No letter spacing for active tab */
     padding: 10px 30px; /* Adjust padding as needed */
     margin-bottom: 5; /* No margin between active and inactive tabs */
+    border-right: 4px solid #C0BEFB;
   }
 
 
@@ -58,6 +59,6 @@
 }
 
 .logo {
-    margin-left: -220px;
+    margin-left: -215px;
     margin-bottom: 30px;
 }

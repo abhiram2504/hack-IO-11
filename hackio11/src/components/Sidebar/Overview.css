@@ -1,0 +1,20 @@
+.stats-container {
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    height: 695px;
+    width: 71%;
+    margin-top: 70px;
+}
+
+.Headings {
+    margin: 10px;
+    margin-top: 27px;
+}
+
+.Heading-text {
+    text-align: left;
+    color: #575353;
+    font-size: 32px;
+    font-weight: bold;
+}
