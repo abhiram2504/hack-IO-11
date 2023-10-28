@@ -21,7 +21,6 @@
 
 
 
-
 .phImage1 {
     width: 600.46px;
     height: 407.55px;
@@ -29,12 +28,42 @@
     border: 5px solid #C0BEFB;
     border-radius: 20px;
 }
+
 .box {
     width: 221.17px;
     height: 170.52px;
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
+    align-content: center;
+    border: 3px solid #F187AB;
+}
+
+.box2 {
+    width: 221.17px;
+    height: 170.52px;
+    background-color: #f6f6fa;
+    margin: 5px;
+    border-radius: 20px;
+    border: 3px solid #F187AB;
+}
+
+.box3 {
+    width: 221.17px;
+    height: 170.52px;
+    background-color: #f6f6fa;
+    margin: 5px;
+    border-radius: 20px;
+    border: 3px solid #F187AB;
+}
+
+.box4 {
+    width: 221.17px;
+    height: 170.52px;
+    background-color: #FAF0;
+    margin: 5px;
+    border-radius: 20px;
+    border: 3px solid #F187AB;
 }
 
 .row1{
@@ -58,5 +87,13 @@
 .graph-image {
     width: 506.46px;
     height: 407.55px;
+  }
+  
+
+  .center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
   }
   
