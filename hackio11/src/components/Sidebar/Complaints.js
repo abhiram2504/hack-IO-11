@@ -1,6 +1,9 @@
+import React from "react";
+import "./Complaints.css";
+
 function Complaints() {
   return (
-    <div>
+    <div className="stats-container">
       <h1>Complaints</h1>
       <p>
         If you have any complaints, please don't hesitate to contact us. We value your feedback and will do our best to address your concerns.

@@ -17,7 +17,6 @@ function Overview() {
               <div className="row2">
                 <div className="box"></div>
                 <div className="box"></div>
-              
             </div>
           </div>
         </div>
