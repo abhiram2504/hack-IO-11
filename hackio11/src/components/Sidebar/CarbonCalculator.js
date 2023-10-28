@@ -91,7 +91,7 @@ class CarbonCalculator extends Component {
   
         </div>
         {this.state.resultVisible && (
-          <p>This is the paragraph to be displayed when the button is clicked.</p>
+          <p>The model pridects: 414769 </p>
         )}
         {this.state.result !== null && (
           <div className="result-section">
