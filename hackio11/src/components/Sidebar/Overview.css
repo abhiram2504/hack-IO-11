@@ -19,17 +19,19 @@
     font-weight: bold;
 }
 
-.chart_box {
-    width: 506.46px;
-    height: 407.55px;
-    background-color: #f6f6fa;
-    margin-top: 25px;
-    border-radius: 25px;
-}
 
+
+
+.phImage1 {
+    width: 600.46px;
+    height: 407.55px;
+    margin-top: 20px;
+    border: 5px solid #C0BEFB;
+    border-radius: 20px;
+}
 .box {
-    width: 241.17px;
-    height: 190.52px;
+    width: 221.17px;
+    height: 170.52px;
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
@@ -39,16 +41,22 @@
     display: flex;
     flex-direction: column;
     margin-left: 40px;
-    margin-top: 28px;
+    margin-top: 40px;
 }
 
 .row2 {
     display: flex;
     flex-direction: column;
-    margin-top: 28px;
+    margin-top: 40px;
 }
 
 .stats_box {
     display: flex;
     flex-direction: row;
 }
+
+.graph-image {
+    width: 506.46px;
+    height: 407.55px;
+  }
+  
