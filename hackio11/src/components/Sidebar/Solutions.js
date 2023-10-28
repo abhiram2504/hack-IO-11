@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import "./Solutions.css"
+import './Solutions.css';
 
 function Solutions() {
  return (
-  <div>
+  <div class="complaints-container">
     <h1>Potential Sustainability Solutions</h1>
       <h2>Maintaining Water pH Values:</h2>
       <ul>

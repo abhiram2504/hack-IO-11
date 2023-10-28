@@ -1,3 +1,4 @@
+/* Styles for the main container */
 .complaints-container {
     position: absolute;
     left: 350px;
@@ -7,40 +8,28 @@
     margin-top: 70px;
   }
 
-  .complaints-container {
-    width: 80%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f5f5f5;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
   
-  .intro-section {
-    margin-bottom: 20px;
-  }
-  
-  .intro-section h2 {
+  /* Styles for section titles */
+  .section-title {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
   }
   
-  .intro-section p {
+  /* Styles for section text */
+  .section-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for input labels */
+  .input-label {
+    font-weight: bold;
     font-size: 16px;
   }
   
-  .input-section {
-    margin-bottom: 20px;
-  }
-  
-  input {
+  /* Styles for input fields */
+  .input-field {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
@@ -48,7 +37,8 @@
     border-radius: 5px;
   }
   
-  button {
+  /* Styles for the calculate button */
+  .calculate-button {
     background-color: #007bff;
     color: white;
     border: none;
@@ -58,11 +48,13 @@
     transition: background-color 0.3s;
   }
   
-  button:hover {
+  /* Styles for the calculate button on hover */
+  .calculate-button:hover {
     background-color: #0056b3;
   }
   
-  .result-section p {
+  /* Styles for the result text */
+  .result-text {
     font-size: 18px;
     font-weight: bold;
   }
