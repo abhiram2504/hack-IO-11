@@ -2,21 +2,26 @@
   position: absolute;
   left: 350px;
   top: 0;
-  height: 900px;
-  width: 71%;
+  width: 50%;  /* Reduced width */
   margin-top: 70px;
+  padding: 30px;  /* Padding for inner spacing */
+  background-color: #f9f9f9;  /* Light background */
+  border-radius: 10px;  /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
 }
 
 .complaints-heading {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  font-size: 28px;  /* Large size */
+  font-weight: 600;  /* Bolder */
+  margin: 0;  /* No margin to stick to the top */
+  padding: 0;  /* No padding */
+  text-align: left;  /* Align to the left */
 }
 
 .complaints-text {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+  font-size: 18px;  /* Increased size */
+  line-height: 1.6;  /* Improved line height */
+  margin-bottom: 30px;  /* Increased spacing */
 }
 
 .complaints-form {
@@ -25,31 +30,40 @@
 }
 
 .complaint-label {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 5px;
+  font-size: 18px;  /* Increased size */
+  font-weight: 500;  /* Semi-bold */
+  margin-bottom: 10px;  /* Increased spacing */
 }
 
 .complaint-textarea {
-  width: 100%;
-  height: 100px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: 97%;
+  height: 150px;  /* Increased height */
+  padding: 15px;  /* Increased padding */
+  border: 2px solid #ccc;  /* Thicker border */
+  border-radius: 10px;  /* Rounded corners */
   resize: none;
-  margin-bottom: 15px;
+  margin-bottom: 20px;  /* Increased spacing */
+  font-size: 16px;  /* Font size */
+  line-height: 1.5;  /* Line height */
 }
 
 .complaint-submit {
   background-color: #007bff;
   color: #fff;
-  font-size: 16px;
-  padding: 10px 20px;
+  font-size: 18px;  /* Increased size */
+  padding: 15px 30px;  /* Increased padding */
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;  /* Rounded corners */
   cursor: pointer;
+  transition: background-color 0.3s ease;  /* Smooth transition */
 }
 
 .complaint-submit:hover {
   background-color: #0056b3;
+}
+
+.thank-you-message {
+  font-size: 18px;
+  color: #4CAF50; /* Green text to signify success */
+  margin-top: 20px;
 }
