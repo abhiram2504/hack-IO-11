@@ -7,6 +7,28 @@ function Overview() {
       <div className="Headings">
         <div className="Heading-text">
         Project Statistics
+        <div className="chart_box">
+
+        </div>
+        <div className="stats_box"> 
+             <div className="row1">
+                 <div className="box">
+
+                 </div>
+                 <div className="box">
+                
+                 </div>
+            </div>
+            <div className="row2">
+                <div className="box">
+
+                </div>
+                <div className="box">
+
+                </div>
+            </div>
+        </div>
+
         </div>
       </div>
     </div>

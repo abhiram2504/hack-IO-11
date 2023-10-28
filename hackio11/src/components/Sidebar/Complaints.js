@@ -14,3 +14,5 @@ function Complaints() {
     </div>
   );
 }
+
+export default Complaints;
