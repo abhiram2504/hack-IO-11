@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Model from './Model';
+import Solutions from './Solutions';
 import Overview from './Overview';
 import Complaints from './Complaints';
 import LogOut from "./LogOut";
