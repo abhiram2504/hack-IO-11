@@ -1,71 +1,66 @@
-import React from "react";
-import { useState } from "react";
+import React, { Component } from 'react';
 import './Carbon.css';
 
-function CarbonCalculator() {
-  const [value1, setValue1] = useState(0);
-  const [value2, setValue2] = useState(0);
-  const [result, setResult] = useState(null);
-  const [error, setError] = useState(null);
+class CarbonCalculator extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      value1: 0, // Set your default values
+      value2: 0,
+      result: null,
+    };
+  }
 
-  const handleSubmit = () => {
+  handleSubmit = () => {
     const data = {
-      value1: value1,
-      value2: value2
+      value1: this.state.value1,
+      value2: this.state.value2,
     };
 
-    fetch('http://127.0.0.1:5000/calculateEmm', {
+    fetch('/calculateEmm', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
-      body: JSON.stringify(data)
+      body: JSON.stringify(data),
     })
-      .then(response => response.json())
-      .then(responseData => {
-        // Handle the result from the server
-        setResult(responseData.result);
+      .then((response) => response.json())
+      .then((data) => {
+        this.setState({ result: data.result });
       })
-      .catch(error => {
-        setError('Error: ' + error);
+      .catch((error) => {
+        console.error('Error:', error);
       });
   };
 
-  return (
-    <div>
+  render() {
+    return (
       <div>
-        <label>Value 1:</label>
-        <input
-          type="number"
-          value={value1}
-          onChange={(e) => setValue1(e.target.value)}
-        />
-      </div>
-      <div>
-        <label>Value 2:</label>
-        <input
-          type="number"
-          value={value2}
-          onChange={(e) => setValue2(e.target.value)}
-        />
-      </div>
-      <button onClick={handleSubmit}>Send Request</button>
-
-      {result !== null && (
         <div>
-          <h2>Result:</h2>
-          <p>{result}</p>
+          <label>Value 1 (kWh):</label>
+          <input
+            type="number"
+            value={this.state.value1}
+            onChange={(e) => this.setState({ value1: e.target.value })}
+          />
         </div>
-      )}
-
-      {error !== null && (
         <div>
-          <h2>Error:</h2>
-          <p>{error}</p>
+          <label>Value 2 (Waste):</label>
+          <input
+            type="number"
+            value={this.state.value2}
+            onChange={(e) => this.setState({ value2: e.target.value })}
+          />
         </div>
-      )}
-    </div>
-  );
+        <button onClick={this.handleSubmit}>Calculate Emission</button>
+        {this.state.result !== null && (
+          <div>
+            <p>Result: {this.state.result}</p>
+          </div>
+        )}
+      </div>
+    );
+  }
 }
 
 export default CarbonCalculator;
