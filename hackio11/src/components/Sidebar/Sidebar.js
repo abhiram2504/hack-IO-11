@@ -39,15 +39,15 @@ function Sidebar() {
 
       <div className="selected-div">
         <button
-          className={activeTab === 'Model' ? 'tab-button active' : 'tab-button'}
-          onClick={() => changeTab('Model')}
+          className={activeTab === 'Solutions' ? 'tab-button active' : 'tab-button'}
+          onClick={() => changeTab('Solutions')}
         >
-          {activeTab === 'Model' ? (
+          {activeTab === 'Solutions' ? (
             <AiFillRobot style={{ marginRight: '10px' }} />
           ) : (
             <AiOutlineRobot style={{ marginRight: '10px' }} />
           )}
-          Model
+          Solutions
         </button>
       </div>
 
@@ -111,7 +111,7 @@ function Sidebar() {
 
       <div className="section-content">
         {activeTab === 'Overview' && <Overview />}
-        {activeTab === 'Model' && <Model />}
+        {activeTab === 'Solutions' && <Solutions />}
         {activeTab === 'Complaints' && <Complaints />}
         {activeTab === 'CarbonCalculator' && <CarbonCalculator />}
         {activeTab === 'Settings' && <Settings />}

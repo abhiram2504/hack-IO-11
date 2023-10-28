@@ -52,4 +52,4 @@ function Solutions() {
  );
 }
 
-export default Model;
+export default Solutions;
