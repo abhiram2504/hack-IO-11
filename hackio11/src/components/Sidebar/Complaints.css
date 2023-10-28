@@ -1,8 +1,55 @@
 .complaints-container {
-    position: absolute;
-    left: 350px;
-    top: 0px;
-    height: 900px;
-    width: 71%;
-    margin-top: 70px;
-  }
+  position: absolute;
+  left: 350px;
+  top: 0;
+  height: 900px;
+  width: 71%;
+  margin-top: 70px;
+}
+
+.complaints-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.complaints-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.complaints-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.complaint-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.complaint-textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 15px;
+}
+
+.complaint-submit {
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.complaint-submit:hover {
+  background-color: #0056b3;
+}
