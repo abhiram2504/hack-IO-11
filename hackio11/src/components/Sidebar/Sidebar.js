@@ -21,7 +21,7 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-        <div className="logo">
+      <div className="logo">
         <img src={Logo} alt="Logo" />
       </div>
       <div className="selected-div">
@@ -96,7 +96,7 @@ function Sidebar() {
       </div>
 
 
-      
+
       <div className="marginss">
         <div className="selected-div">
           <button
@@ -127,12 +127,13 @@ function Sidebar() {
         </button>
       </div>
 
-      
+
       <div className="section-content">
         {activeTab === 'Overview' && <Overview />}
         {activeTab === 'Solutions' && <Solutions />}
         {activeTab === 'Complaints' && <Complaints />}
         {activeTab === 'CarbonCalculator' && <CarbonCalculator />}
+        {activeTab === 'Authors' && <Authors />} {/* Add this line */}
         {activeTab === 'Settings' && <Settings />}
         {activeTab === 'LogOut' && <LogOut />}
       </div>
