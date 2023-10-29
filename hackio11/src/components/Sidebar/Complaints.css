@@ -1,32 +1,35 @@
 /* Container styling */
 .complaints-container {
-  position: relative;
-  padding: 20px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  background-color: #f8f8f8;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  width: 100vw; /* Set the width to 100% of the viewport width */
-  height: 100vh; /* Set the height to 100% of the viewport height */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+ 
+  padding: 40px; /* Increased padding */
+  border: 3px solid #f187ab; /* Thicker border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #faf0f3; /* Lighter background */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  max-width: 70%; /* Max width */
+  max-height: 100%;
+  margin: auto; /* Center the container */
+  position: absolute;
+  left: 350px;
+  top: 0px;
+  width: 71%;
+  margin-top: 200px;
+
 }
 
 /* Heading styling */
 .complaints-heading {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 28px; /* Increased size */
+  font-weight: 600; /* Semi-bold */
   margin-bottom: 20px;
   color: #333;
 }
 
 /* Text styling */
 .complaints-text {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
+  font-size: 18px; /* Increased size */
+  line-height: 1.6; /* Improved line height */
+  margin-bottom: 30px;
   color: #555;
 }
 
@@ -39,8 +42,8 @@
 
 /* Label styling */
 .complaint-label {
-  font-size: 16px;
-  font-weight: bold;
+  font-size: 18px; /* Increased size */
+  font-weight: 500; /* Semi-bold */
   margin-bottom: 10px;
   color: #333;
 }
@@ -49,34 +52,35 @@
 .complaint-textarea {
   width: 100%;
   height: 150px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  padding: 15px; /* Increased padding */
+  border: 2px solid #ccc; /* Thicker border */
+  border-radius: 10px; /* Rounded corners */
   resize: none;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #333;
+  font-size: 16px; /* Font size */
 }
 
 /* Submit button styling */
 .complaint-submit {
   background-color: #007bff;
   color: #fff;
-  font-size: 16px;
-  padding: 10px 20px;
+  font-size: 18px; /* Increased size */
+  padding: 15px 30px; /* Increased padding */
   border: none;
-  border-radius: 5px;
+  border-radius: 10px; /* Rounded corners */
   cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
 }
 
 .complaint-submit:hover {
   background-color: #0056b3;
-  color: #fff;
 }
 
 /* Thank you message styling */
 .thank-you-message {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 20px;
+  font-size: 20px; /* Increased size */
+  font-weight: 600; /* Semi-bold */
+  margin-top: 20px;
   color: #007bff;
 }

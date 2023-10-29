@@ -9,7 +9,7 @@ import './Sidebar_main_style.css'; // Use the correct path to your CSS file
 import { AiOutlineHome, AiOutlineRobot, AiOutlineBook, AiFillHome, AiFillRobot, AiFillBook, AiOutlineCalculator, AiFillCalculator } from 'react-icons/ai';
 import { BiHelpCircle, BiSolidHelpCircle } from 'react-icons/bi';
 import { IoSettingsOutline, IoSettingsSharp } from 'react-icons/io5';
-import Logo from '../Sidebar/Ellipse.png';
+import Logo from './logo.png';
 
 function Sidebar() {
   const [activeTab, setActiveTab] = useState('Overview');
