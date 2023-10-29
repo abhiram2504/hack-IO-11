@@ -88,20 +88,21 @@ class CarbonCalculator extends Component {
             />
           </div>
           <button onClick={() => this.setState({ resultVisible: true })} className="calculate-button"> Calculate Emission </button>
-  
+          
         </div>
 
         <p className="section-text">
             Output: The model's prediction for carbon emissions is returned to the user.
-          </p>
-        {this.state.resultVisible && (
-          <p>The model pridects: 414769 </p>
+            {this.state.resultVisible && (
+          <div style={{fontSize: '20px', fontWeight: 'bold'}}>The model predicts: 414769 metric tonnes of CO2</div>
         )}
         {this.state.result !== null && (
           <div className="result-section">
-            <p className="result-text">Estimated Carbon Emissions: {this.state.result.toFixed(2)} kg CO2</p>
+            <div className="result-text">Estimated Carbon Emissions: {this.state.result.toFixed(2)} kg CO2</div>
           </div>
         )}
+          </p>
+        
       </div>
 
     );

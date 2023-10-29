@@ -1,0 +1,23 @@
+.carbon-container {
+    position: absolute;
+    left: 350px;
+    top: 0px;
+    height: 90px;
+    width: 71%;
+    margin-top: 70px;
+  }
+
+  .section-text {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 2px;
+    color: #333;
+    background-color: #f9f9f9;  /* Light gray background */
+    padding: 20px;  /* Padding all around */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Initial box-shadow */
+    transition: all 0.3s ease;  /* Transition for hover animation */
+  }
+
+  

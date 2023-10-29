@@ -1,6 +1,6 @@
 .sidebar {
     width: 276px;
-    height: 900px; /* Make the sidebar take the full height of its container */
+    height: 1040px; /* Make the sidebar take the full height of its container */
     background-color: #f6f6fa;
     padding: 20px;
     text-align: center;
@@ -55,7 +55,7 @@
   
 
 .marginss {
-    margin-top: 320px;
+    margin-top: 500px;
 }
 .logo {
   width: 50px;

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Solutions from './Solutions';
 import Overview from './Overview';
+import Authors from "./Authors";
 import Complaints from './Complaints';
 import LogOut from "./LogOut";
 import Settings from "./Settings";
@@ -39,6 +40,21 @@ function Sidebar() {
 
       <div className="selected-div">
         <button
+          className={activeTab === 'CarbonCalculator' ? 'tab-button active' : 'tab-button'}
+          onClick={() => changeTab('CarbonCalculator')}
+        >
+          {activeTab === 'CarbonCalculator' ? (
+            <AiFillCalculator style={{ marginRight: '10px' }} />
+          ) : (
+            <AiOutlineCalculator style={{ marginRight: '10px' }} />
+          )}
+          Carbon Calculator
+        </button>
+      </div>
+
+
+      <div className="selected-div">
+        <button
           className={activeTab === 'Solutions' ? 'tab-button active' : 'tab-button'}
           onClick={() => changeTab('Solutions')}
         >
@@ -67,18 +83,20 @@ function Sidebar() {
 
       <div className="selected-div">
         <button
-          className={activeTab === 'CarbonCalculator' ? 'tab-button active' : 'tab-button'}
-          onClick={() => changeTab('CarbonCalculator')}
+          className={activeTab === 'Authors' ? 'tab-button active' : 'tab-button'}
+          onClick={() => changeTab('Authors')}
         >
-          {activeTab === 'CarbonCalculator' ? (
+          {activeTab === 'Authors' ? (
             <AiFillCalculator style={{ marginRight: '10px' }} />
           ) : (
             <AiOutlineCalculator style={{ marginRight: '10px' }} />
           )}
-          Carbon Calculator
+          Created By
         </button>
       </div>
 
+
+      
       <div className="marginss">
         <div className="selected-div">
           <button
@@ -109,6 +127,7 @@ function Sidebar() {
         </button>
       </div>
 
+      
       <div className="section-content">
         {activeTab === 'Overview' && <Overview />}
         {activeTab === 'Solutions' && <Solutions />}
