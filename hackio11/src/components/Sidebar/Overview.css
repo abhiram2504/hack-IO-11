@@ -2,7 +2,7 @@
     position: absolute;
     left: 350px;
     top: 0px;
-    height: 900px;
+    height: 800px;
     width: 71%;
     margin-top: 70px;
 }
@@ -22,8 +22,8 @@
 
 
 .phImage1 {
-    width: 600.46px;
-    height: 407.55px;
+    width: 800px;
+    height: 600px;
     margin-top: 35px;
     border: 5px solid #C0BEFB;
     border-radius: 20px;
@@ -31,8 +31,8 @@
 
 /* Update the CSS for the box class to style the container */
 .box {
-    width: 221.17px;
-    height: 170.52px;
+    width: 250.17px;
+    height: 220.52px;
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
@@ -53,8 +53,8 @@
 
 
 .box2 {
-    width: 221.17px;
-    height: 170.52px;
+    width: 250.17px;
+    height: 220.52px;
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
@@ -73,8 +73,8 @@
 }
 
 .box3 {
-    width: 221.17px;
-    height: 170.52px;
+    width: 250.17px;
+    height: 220.52px;
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
@@ -93,8 +93,8 @@
     margin-left: 8px;
 }
 .box4 {
-    width: 221.17px;
-    height: 170.52px;
+    width: 250.17px;
+    height: 220.52px;
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
