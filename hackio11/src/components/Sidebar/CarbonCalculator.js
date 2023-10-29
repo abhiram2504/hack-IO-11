@@ -35,7 +35,7 @@ class CarbonCalculator extends Component {
 
   render() {
     return (
-      <div className="complaints-container">
+      <div className="carbon-container">
       <div className="intro-section">
         <h2 className="section-title">Introduction: Carbon Emission Prediction Model</h2>
         <p className="section-text">
@@ -44,6 +44,7 @@ class CarbonCalculator extends Component {
         </div>
         <div className="code-overview">
           <h2 className="section-title">Code Overview:</h2>
+          <div className="text-grid">
           <p className="section-text">
             Carbon Emission Calculation Function: The script defines a nested function c_emm(kWh) to calculate carbon emissions in kilograms based on electricity consumption in kilowatt-hours. It converts the emissions from pounds to kilograms using a conversion factor.
           </p>
@@ -62,9 +63,8 @@ class CarbonCalculator extends Component {
           <p className="section-text">
             User Input and Prediction: The script prepares for user interaction by requesting input values for electricity consumption (kWh) and waste generation (kg). The user's input is converted into a NumPy array and used to predict carbon emissions using the trained model.
           </p>
-          <p className="section-text">
-            Output: The model's prediction for carbon emissions is returned to the user.
-          </p>
+          
+          </div>
         </div>
         <div className="input-section">
           <div>
@@ -90,6 +90,10 @@ class CarbonCalculator extends Component {
           <button onClick={() => this.setState({ resultVisible: true })} className="calculate-button"> Calculate Emission </button>
   
         </div>
+
+        <p className="section-text">
+            Output: The model's prediction for carbon emissions is returned to the user.
+          </p>
         {this.state.resultVisible && (
           <p>The model pridects: 414769 </p>
         )}

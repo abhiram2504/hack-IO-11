@@ -57,8 +57,23 @@
 .marginss {
     margin-top: 140px;
 }
-
 .logo {
-    margin-left: -215px;
-    margin-bottom: 30px;
+  width: 50px;
+  height: 50px;
+ 
+  margin-bottom: 30px;
+  background: linear-gradient(to bottom, rgba(255, 192, 203, 0.5), rgba(128, 0, 128, 0.5), rgba(0, 0, 255, 0.5)); 
+  position: relative; /* Relative positioning */
+  z-index: 1; /* z-index to make sure it stays below the image */
+  padding: 10px; /* Padding around the image */
+  border-radius: 50%;
+  border: 5px solid #b188c9; /* Change #000 to any color you prefer */
+}
+
+.logo img {
+  position: relative;
+  z-index: 2; /* Make sure the image appears on top of the background */
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
 }
