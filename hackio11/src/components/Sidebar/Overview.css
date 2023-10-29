@@ -24,11 +24,12 @@
 .phImage1 {
     width: 600.46px;
     height: 407.55px;
-    margin-top: 20px;
+    margin-top: 35px;
     border: 5px solid #C0BEFB;
     border-radius: 20px;
 }
 
+/* Update the CSS for the box class to style the container */
 .box {
     width: 221.17px;
     height: 170.52px;
@@ -37,7 +38,19 @@
     border-radius: 20px;
     align-content: center;
     border: 3px solid #F187AB;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Vertically center content */
+    padding: 10px; /* Add some padding inside the box */
+    text-align: center; /* Center text horizontally */
 }
+
+/* Style the name inside the box */
+.box div {
+    font-size: 18px; /* Set the font size for the name */
+    color: #000; /* Set text color */
+}
+
 
 .box2 {
     width: 221.17px;
@@ -45,7 +58,18 @@
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
+    align-content: center;
     border: 3px solid #F187AB;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Vertically center content */
+    padding: 10px; /* Add some padding inside the box */
+    text-align: center; /* Center text horizontally */
+}
+.box2 div {
+    font-size: 18px; /* Set the font size for the name */
+    color: #000; /* Set text color */
+    margin-left: 8px;
 }
 
 .box3 {
@@ -54,16 +78,41 @@
     background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
+    align-content: center;
     border: 3px solid #F187AB;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Vertically center content */
+    padding: 10px; /* Add some padding inside the box */
+    text-align: center; /* Center text horizontally */
 }
 
+.box3 div {
+    font-size: 18px; /* Set the font size for the name */
+    color: #000; /* Set text color */
+    margin-left: 8px;
+}
 .box4 {
     width: 221.17px;
     height: 170.52px;
-    background-color: #FAF0;
+    background-color: #f6f6fa;
     margin: 5px;
     border-radius: 20px;
+    align-content: center;
     border: 3px solid #F187AB;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Vertically center content */
+    padding: 10px; /* Add some padding inside the box */
+    text-align: center; /* Center text horizontally */
+    
+}
+
+.box4 div {
+    font-size: 18px; /* Set the font size for the name */
+    color: #000; /* Set text color */
+    margin-left: 8px;
+    
 }
 
 .row1{
