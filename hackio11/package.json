@@ -1,6 +1,7 @@
 {
   "name": "hackio11",
   "version": "0.1.0",
+  "homepage": "https://y-wani.github.io/hack-IO-11",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
