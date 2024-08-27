@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1fba3333.css",
+    "main.js": "/static/js/main.6791c570.js",
+    "static/media/logo.png": "/static/media/logo.fcf3a4cff641dfa9ee34.png",
+    "static/media/Alkaline.png": "/static/media/Alkaline.99e058a9dec6446cf6ee.png",
+    "static/media/Hardness.png": "/static/media/Hardness.e9875802e43e528e3f16.png",
+    "static/media/pH_graph.png": "/static/media/pH_graph.023a476c37c4ae28b8ba.png",
+    "static/media/Solids.png": "/static/media/Solids.51e825eeb24844d1ee39.png",
+    "index.html": "/index.html",
+    "main.1fba3333.css.map": "/static/css/main.1fba3333.css.map",
+    "main.6791c570.js.map": "/static/js/main.6791c570.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1fba3333.css",
+    "static/js/main.6791c570.js"
+  ]
+}
